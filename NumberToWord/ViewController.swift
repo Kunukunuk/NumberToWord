@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var numberEntered: UITextField!
     @IBOutlet weak var englishWord: UILabel!
-    @IBOutlet weak var chineseWord: UILabel!
+    @IBOutlet weak var simplifiedChineseLabel: UILabel!
+    @IBOutlet weak var traditionalChineseLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,11 +30,12 @@ class ViewController: UIViewController {
             let chinese = ChineseWord(with: nsNum)
             
             englishWord.text = english.english
-            chineseWord.text = chinese.chinese
+            simplifiedChineseLabel.text = chinese.chinese
             
         } else {
             englishWord.text = "Not a valid integer"
-            chineseWord.text = "不是有效的整数"
+            simplifiedChineseLabel.text = "不是有效的整数"
+            traditionalChineseLabel.text = "不是有效的整數"
         }
         
     }
