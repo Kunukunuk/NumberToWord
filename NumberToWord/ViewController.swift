@@ -30,7 +30,8 @@ class ViewController: UIViewController {
             let chinese = ChineseWord(with: nsNum)
             
             englishWord.text = english.english
-            simplifiedChineseLabel.text = chinese.chinese
+            simplifiedChineseLabel.text = chinese.simplifiedChinese
+            traditionalChineseLabel.text = chinese.traditioanlChinese
             
         } else {
             englishWord.text = "Not a valid integer"

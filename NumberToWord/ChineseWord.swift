@@ -10,14 +10,20 @@ import Foundation
 
 class ChineseWord {
     
-    var chinese = ""
+    var simplifiedChinese = ""
+    var traditioanlChinese = ""
     
     init(with number: NSNumber) {
-        let userLanguage = Locale(identifier: "zh_Hans_CN")
+        
         let formatter = NumberFormatter()
         formatter.numberStyle = .spellOut
-        formatter.locale = userLanguage
+        formatter.locale = Locale(identifier: "zh_Hans")
         
-        chinese = formatter.string(from: number)!
+        simplifiedChinese = formatter.string(from: number)!
+        
+        formatter.locale = Locale(identifier: "zh_Hant")
+        
+        traditioanlChinese = formatter.string(from: number)!
     }
+    
 }
