@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         let isNumber = Int(numberEntered.text!)
         if (isNumber != nil) {
             
-            let english = EnglishWord()
-            print(english.toEnglish(num: isNumber!))
+            let english = EnglishWord(with: isNumber!)
+            print("english: \(english.english)")
             
         } else {
             englishWord.text = "Not a valid integer"

@@ -8,9 +8,13 @@
 
 import Foundation
 
-struct EnglishWord {
+class EnglishWord {
     
     var english = ""
+    
+    init(with number: Int) {
+        english = String(number)
+    }
     
     func toEnglish(num: Int) -> String {
 
