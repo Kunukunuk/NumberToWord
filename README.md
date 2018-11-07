@@ -9,12 +9,13 @@ Time spent: **10** hours spent in total
 The following **additional** features are implemented in the future:
 
 - [ ] Let an user pick an language to convert the number to.
+- [ ] Let user put double numbers. Currently it only works on integers.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/abc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![kun_huang_numbertoword](https://user-images.githubusercontent.com/28847045/48111367-32444a80-e21f-11e8-9c8f-798d7f8bbf7e.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -30,7 +31,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Kun Huang]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
