@@ -24,8 +24,12 @@ class ViewController: UIViewController {
         let isNumber = Int(numberEntered.text!)
         if (isNumber != nil) {
             
-            let english = EnglishWord(with: isNumber!)
-            print("english: \(english.english)")
+            let nsNum = NSNumber(value: isNumber!)
+            let english = EnglishWord(with: nsNum)
+            let chinese = ChineseWord(with: nsNum)
+            
+            englishWord.text = english.english
+            chineseWord.text = chinese.chinese
             
         } else {
             englishWord.text = "Not a valid integer"
@@ -33,16 +37,6 @@ class ViewController: UIViewController {
         }
         
     }
-    
-    func lengthOfNumber(num: Int) -> Int{
-        
-        if (num < 10 ) {
-            return 1
-        } else {
-            return 1 +  lengthOfNumber(num: num/10)
-        }
-    }
-
 
 }
 
