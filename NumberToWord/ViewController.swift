@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     @IBAction func convertNum(_ sender: UIButton) {
         
-        let isNumber = Int(numberEntered.text!)
+        let isNumber = Double(numberEntered.text!)
         if (isNumber != nil) {
             
             let nsNum = NSNumber(value: isNumber!)
