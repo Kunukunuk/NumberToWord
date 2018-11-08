@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>&quot;mr&quot;</key>
+	<string>Marathi</string>
+	<key>&quot;bs&quot;</key>
+	<string>Bosnian</string>
+	<key>&quot;ee_TG&quot;</key>
+	<string>Ewe (Togo)</string>
+	<key>&quot;ms&quot;</key>
+	<string>Malay</string>
+	<key>&quot;kam_KE&quot;</key>
+	<string>Kamba (Kenya)</string>
+	<key>&quot;mt&quot;</key>
+	<string>Maltese</string>
+	<key>&quot;ha&quot;</key>
+	<string>Hausa</string>
+	<key>&quot;es_HN&quot;</key>
+	<string>Spanish (Honduras)</string>
+	<key>&quot;ml_IN&quot;</key>
+	<string>Malayalam (India)</string>
+	<key>&quot;ro_MD&quot;</key>
+	<string>Romanian (Moldova)</string>
+	<key>&quot;kab_DZ&quot;</key>
+	<string>Kabyle (Algeria)</string>
+	<key>&quot;he&quot;</key>
+	<string>Hebrew</string>
+	<key>&quot;es_CO&quot;</key>
+	<string>Spanish (Colombia)</string>
+	<key>&quot;my&quot;</key>
+	<string>Burmese</string>
+	<key>&quot;es_PA&quot;</key>
+	<string>Spanish (Panama)</string>
+	<key>&quot;az_Latn&quot;</key>
+	<string>Azerbaijani (Latin)</string>
+	<key>&quot;mer&quot;</key>
+	<string>Meru</string>
+	<key>&quot;en_NZ&quot;</key>
+	<string>English (New Zealand)</string>
+	<key>&quot;xog_UG&quot;</key>
+	<string>Soga (Uganda)</string>
+	<key>&quot;sg&quot;</key>
+	<string>Sango</string>
+	<key>&quot;fr_GP&quot;</key>
+	<string>French (Guadeloupe)</string>
+	<key>&quot;sr_Cyrl_BA&quot;</key>
+	<string>Serbian (Cyrillic, Bosnia and Herzegovina)</string>
+	<key>&quot;hi&quot;</key>
+	<string>Hindi</string>
+	<key>&quot;fil_PH&quot;</key>
+	<string>Filipino (Philippines)</string>
+	<key>&quot;lt_LT&quot;</key>
+	<string>Lithuanian (Lithuania)</string>
+	<key>&quot;si&quot;</key>
+	<string>Sinhala</string>
+	<key>&quot;en_MT&quot;</key>
+	<string>English (Malta)</string>
+	<key>&quot;si_LK&quot;</key>
+	<string>Sinhala (Sri Lanka)</string>
+	<key>&quot;luo_KE&quot;</key>
+	<string>Luo (Kenya)</string>
+	<key>&quot;it_CH&quot;</key>
+	<string>Italian (Switzerland)</string>
+	<key>&quot;teo&quot;</key>
+	<string>Teso</string>
+	<key>&quot;mfe&quot;</key>
+	<string>Morisyen</string>
+	<key>&quot;sk&quot;</key>
+	<string>Slovak</string>
+	<key>&quot;uz_Cyrl_UZ&quot;</key>
+	<string>Uzbek (Cyrillic, Uzbekistan)</string>
+	<key>&quot;sl&quot;</key>
+	<string>Slovenian</string>
+	<key>&quot;rm_CH&quot;</key>
+	<string>Romansh (Switzerland)</string>
+	<key>&quot;az_Cyrl_AZ&quot;</key>
+	<string>Azerbaijani (Cyrillic, Azerbaijan)</string>
+	<key>&quot;fr_GQ&quot;</key>
+	<string>French (Equatorial Guinea)</string>
+	<key>&quot;kde&quot;</key>
+	<string>Makonde</string>
+	<key>&quot;sn&quot;</key>
+	<string>Shona</string>
+	<key>&quot;cgg_UG&quot;</key>
+	<string>Chiga (Uganda)</string>
+	<key>&quot;so&quot;</key>
+	<string>Somali</string>
+	<key>&quot;fr_RW&quot;</key>
+	<string>French (Rwanda)</string>
+	<key>&quot;es_SV&quot;</key>
+	<string>Spanish (El Salvador)</string>
+	<key>&quot;mas_TZ&quot;</key>
+	<string>Masai (Tanzania)</string>
+	<key>&quot;en_MU&quot;</key>
+	<string>English (Mauritius)</string>
+	<key>&quot;sq&quot;</key>
+	<string>Albanian</string>
+	<key>&quot;hr&quot;</key>
+	<string>Croatian</string>
+	<key>&quot;sr&quot;</key>
+	<string>Serbian</string>
+	<key>&quot;en_PH&quot;</key>
+	<string>English (Philippines)</string>
+	<key>&quot;ca&quot;</key>
+	<string>Catalan</string>
+	<key>&quot;hu&quot;</key>
+	<string>Hungarian</string>
+	<key>&quot;mk_MK&quot;</key>
+	<string>Macedonian (Macedonia)</string>
+	<key>&quot;fr_TD&quot;</key>
+	<string>French (Chad)</string>
+	<key>&quot;nb&quot;</key>
+	<string>Norwegian Bokmål</string>
+	<key>&quot;sv&quot;</key>
+	<string>Swedish</string>
+	<key>&quot;kln_KE&quot;</key>
+	<string>Kalenjin (Kenya)</string>
+	<key>&quot;sw&quot;</key>
+	<string>Swahili</string>
+	<key>&quot;nd&quot;</key>
+	<string>North Ndebele</string>
+	<key>&quot;sr_Latn&quot;</key>
+	<string>Serbian (Latin)</string>
+	<key>&quot;el_GR&quot;</key>
+	<string>Greek (Greece)</string>
+	<key>&quot;hy&quot;</key>
+	<string>Armenian</string>
+	<key>&quot;ne&quot;</key>
+	<string>Nepali</string>
+	<key>&quot;el_CY&quot;</key>
+	<string>Greek (Cyprus)</string>
+	<key>&quot;es_CR&quot;</key>
+	<string>Spanish (Costa Rica)</string>
+	<key>&quot;fo_FO&quot;</key>
+	<string>Faroese (Faroe Islands)</string>
+	<key>&quot;pa_Arab_PK&quot;</key>
+	<string>Punjabi (Arabic, Pakistan)</string>
+	<key>&quot;seh&quot;</key>
+	<string>Sena</string>
+	<key>&quot;ar_YE&quot;</key>
+	<string>Arabic (Yemen)</string>
+	<key>&quot;ja_JP&quot;</key>
+	<string>Japanese (Japan)</string>
+	<key>&quot;ur_PK&quot;</key>
+	<string>Urdu (Pakistan)</string>
+	<key>&quot;pa_Guru&quot;</key>
+	<string>Punjabi (Gurmukhi)</string>
+	<key>&quot;gl_ES&quot;</key>
+	<string>Galician (Spain)</string>
+	<key>&quot;zh_Hant_HK&quot;</key>
+	<string>Chinese (Traditional Han, Hong Kong SAR China)</string>
+	<key>&quot;ar_EG&quot;</key>
+	<string>Arabic (Egypt)</string>
+	<key>&quot;nl&quot;</key>
+	<string>Dutch</string>
+	<key>&quot;th_TH&quot;</key>
+	<string>Thai (Thailand)</string>
+	<key>&quot;es_PE&quot;</key>
+	<string>Spanish (Peru)</string>
+	<key>&quot;fr_KM&quot;</key>
+	<string>French (Comoros)</string>
+	<key>&quot;nn&quot;</key>
+	<string>Norwegian Nynorsk</string>
+	<key>&quot;kk_Cyrl_KZ&quot;</key>
+	<string>Kazakh (Cyrillic, Kazakhstan)</string>
+	<key>&quot;kea&quot;</key>
+	<string>Kabuverdianu</string>
+	<key>&quot;lv_LV&quot;</key>
+	<string>Latvian (Latvia)</string>
+	<key>&quot;kln&quot;</key>
+	<string>Kalenjin</string>
+	<key>&quot;tzm_Latn&quot;</key>
+	<string>Central Morocco Tamazight (Latin)</string>
+	<key>&quot;yo&quot;</key>
+	<string>Yoruba</string>
+	<key>&quot;gsw_CH&quot;</key>
+	<string>Swiss German (Switzerland)</string>
+	<key>&quot;ha_Latn_GH&quot;</key>
+	<string>Hausa (Latin, Ghana)</string>
+	<key>&quot;is_IS&quot;</key>
+	<string>Icelandic (Iceland)</string>
+	<key>&quot;pt_BR&quot;</key>
+	<string>Portuguese (Brazil)</string>
+	<key>&quot;cs&quot;</key>
+	<string>Czech</string>
+	<key>&quot;en_PK&quot;</key>
+	<string>English (Pakistan)</string>
+	<key>&quot;fa_IR&quot;</key>
+	<string>Persian (Iran)</string>
+	<key>&quot;zh_Hans_SG&quot;</key>
+	<string>Chinese (Simplified Han, Singapore)</string>
+	<key>&quot;luo&quot;</key>
+	<string>Luo</string>
+	<key>&quot;ta&quot;</key>
+	<string>Tamil</string>
+	<key>&quot;fr_TG&quot;</key>
+	<string>French (Togo)</string>
+	<key>&quot;kde_TZ&quot;</key>
+	<string>Makonde (Tanzania)</string>
+	<key>&quot;mr_IN&quot;</key>
+	<string>Marathi (India)</string>
+	<key>&quot;ar_SA&quot;</key>
+	<string>Arabic (Saudi Arabia)</string>
+	<key>&quot;ka_GE&quot;</key>
+	<string>Georgian (Georgia)</string>
+	<key>&quot;mfe_MU&quot;</key>
+	<string>Morisyen (Mauritius)</string>
+	<key>&quot;id&quot;</key>
+	<string>Indonesian</string>
+	<key>&quot;fr_LU&quot;</key>
+	<string>French (Luxembourg)</string>
+	<key>&quot;de_LU&quot;</key>
+	<string>German (Luxembourg)</string>
+	<key>&quot;ru_MD&quot;</key>
+	<string>Russian (Moldova)</string>
+	<key>&quot;cy&quot;</key>
+	<string>Welsh</string>
+	<key>&quot;zh_Hans_HK&quot;</key>
+	<string>Chinese (Simplified Han, Hong Kong SAR China)</string>
+	<key>&quot;te&quot;</key>
+	<string>Telugu</string>
+	<key>&quot;bg_BG&quot;</key>
+	<string>Bulgarian (Bulgaria)</string>
+	<key>&quot;shi_Latn&quot;</key>
+	<string>Tachelhit (Latin)</string>
+	<key>&quot;ig&quot;</key>
+	<string>Igbo</string>
+	<key>&quot;ses&quot;</key>
+	<string>Koyraboro Senni</string>
+	<key>&quot;ii&quot;</key>
+	<string>Sichuan Yi</string>
+	<key>&quot;es_BO&quot;</key>
+	<string>Spanish (Bolivia)</string>
+	<key>&quot;th&quot;</key>
+	<string>Thai</string>
+	<key>&quot;ko_KR&quot;</key>
+	<string>Korean (South Korea)</string>
+	<key>&quot;ti&quot;</key>
+	<string>Tigrinya</string>
+	<key>&quot;it_IT&quot;</key>
+	<string>Italian (Italy)</string>
+	<key>&quot;shi_Latn_MA&quot;</key>
+	<string>Tachelhit (Latin, Morocco)</string>
+	<key>&quot;pt_MZ&quot;</key>
+	<string>Portuguese (Mozambique)</string>
+	<key>&quot;ff_SN&quot;</key>
+	<string>Fulah (Senegal)</string>
+	<key>&quot;haw&quot;</key>
+	<string>Hawaiian</string>
+	<key>&quot;zh_Hans&quot;</key>
+	<string>Chinese (Simplified Han)</string>
+	<key>&quot;so_KE&quot;</key>
+	<string>Somali (Kenya)</string>
+	<key>&quot;bn_IN&quot;</key>
+	<string>Bengali (India)</string>
+	<key>&quot;en_UM&quot;</key>
+	<string>English (U.S. Minor Outlying Islands)</string>
+	<key>&quot;to&quot;</key>
+	<string>Tonga</string>
+	<key>&quot;id_ID&quot;</key>
+	<string>Indonesian (Indonesia)</string>
+	<key>&quot;uz_Cyrl&quot;</key>
+	<string>Uzbek (Cyrillic)</string>
+	<key>&quot;en_GU&quot;</key>
+	<string>English (Guam)</string>
+	<key>&quot;es_EC&quot;</key>
+	<string>Spanish (Ecuador)</string>
+	<key>&quot;en_US_POSIX&quot;</key>
+	<string>English (United States, Computer)</string>
+	<key>&quot;sr_Latn_BA&quot;</key>
+	<string>Serbian (Latin, Bosnia and Herzegovina)</string>
+	<key>&quot;is&quot;</key>
+	<string>Icelandic</string>
+	<key>&quot;luy&quot;</key>
+	<string>Luyia</string>
+	<key>&quot;tr&quot;</key>
+	<string>Turkish</string>
+	<key>&quot;en_NA&quot;</key>
+	<string>English (Namibia)</string>
+	<key>&quot;it&quot;</key>
+	<string>Italian</string>
+	<key>&quot;da&quot;</key>
+	<string>Danish</string>
+	<key>&quot;bo_IN&quot;</key>
+	<string>Tibetan (India)</string>
+	<key>&quot;vun_TZ&quot;</key>
+	<string>Vunjo (Tanzania)</string>
+	<key>&quot;ar_SD&quot;</key>
+	<string>Arabic (Sudan)</string>
+	<key>&quot;uz_Latn_UZ&quot;</key>
+	<string>Uzbek (Latin, Uzbekistan)</string>
+	<key>&quot;az_Latn_AZ&quot;</key>
+	<string>Azerbaijani (Latin, Azerbaijan)</string>
+	<key>&quot;de&quot;</key>
+	<string>German</string>
+	<key>&quot;es_GQ&quot;</key>
+	<string>Spanish (Equatorial Guinea)</string>
+	<key>&quot;ta_IN&quot;</key>
+	<string>Tamil (India)</string>
+	<key>&quot;de_DE&quot;</key>
+	<string>German (Germany)</string>
+	<key>&quot;fr_FR&quot;</key>
+	<string>French (France)</string>
+	<key>&quot;rof_TZ&quot;</key>
+	<string>Rombo (Tanzania)</string>
+	<key>&quot;ar_LY&quot;</key>
+	<string>Arabic (Libya)</string>
+	<key>&quot;en_BW&quot;</key>
+	<string>English (Botswana)</string>
+	<key>&quot;asa&quot;</key>
+	<string>Asu</string>
+	<key>&quot;zh&quot;</key>
+	<string>Chinese</string>
+	<key>&quot;ha_Latn&quot;</key>
+	<string>Hausa (Latin)</string>
+	<key>&quot;fr_NE&quot;</key>
+	<string>French (Niger)</string>
+	<key>&quot;es_MX&quot;</key>
+	<string>Spanish (Mexico)</string>
+	<key>&quot;bem_ZM&quot;</key>
+	<string>Bemba (Zambia)</string>
+	<key>&quot;zh_Hans_CN&quot;</key>
+	<string>Chinese (Simplified Han, China)</string>
+	<key>&quot;bn_BD&quot;</key>
+	<string>Bengali (Bangladesh)</string>
+	<key>&quot;pt_GW&quot;</key>
+	<string>Portuguese (Guinea-Bissau)</string>
+	<key>&quot;om&quot;</key>
+	<string>Oromo</string>
+	<key>&quot;jmc&quot;</key>
+	<string>Machame</string>
+	<key>&quot;de_AT&quot;</key>
+	<string>German (Austria)</string>
+	<key>&quot;kk_Cyrl&quot;</key>
+	<string>Kazakh (Cyrillic)</string>
+	<key>&quot;sw_TZ&quot;</key>
+	<string>Swahili (Tanzania)</string>
+	<key>&quot;ar_OM&quot;</key>
+	<string>Arabic (Oman)</string>
+	<key>&quot;et_EE&quot;</key>
+	<string>Estonian (Estonia)</string>
+	<key>&quot;or&quot;</key>
+	<string>Oriya</string>
+	<key>&quot;da_DK&quot;</key>
+	<string>Danish (Denmark)</string>
+	<key>&quot;ro_RO&quot;</key>
+	<string>Romanian (Romania)</string>
+	<key>&quot;zh_Hant&quot;</key>
+	<string>Chinese (Traditional Han)</string>
+	<key>&quot;bm_ML&quot;</key>
+	<string>Bambara (Mali)</string>
+	<key>&quot;ja&quot;</key>
+	<string>Japanese</string>
+	<key>&quot;fr_CA&quot;</key>
+	<string>French (Canada)</string>
+	<key>&quot;naq&quot;</key>
+	<string>Nama</string>
+	<key>&quot;zu&quot;</key>
+	<string>Zulu</string>
+	<key>&quot;en_IE&quot;</key>
+	<string>English (Ireland)</string>
+	<key>&quot;ar_MA&quot;</key>
+	<string>Arabic (Morocco)</string>
+	<key>&quot;es_GT&quot;</key>
+	<string>Spanish (Guatemala)</string>
+	<key>&quot;uz_Arab_AF&quot;</key>
+	<string>Uzbek (Arabic, Afghanistan)</string>
+	<key>&quot;en_AS&quot;</key>
+	<string>English (American Samoa)</string>
+	<key>&quot;bs_BA&quot;</key>
+	<string>Bosnian (Bosnia and Herzegovina)</string>
+	<key>&quot;am_ET&quot;</key>
+	<string>Amharic (Ethiopia)</string>
+	<key>&quot;ar_TN&quot;</key>
+	<string>Arabic (Tunisia)</string>
+	<key>&quot;haw_US&quot;</key>
+	<string>Hawaiian (United States)</string>
+	<key>&quot;ar_JO&quot;</key>
+	<string>Arabic (Jordan)</string>
+	<key>&quot;fa_AF&quot;</key>
+	<string>Persian (Afghanistan)</string>
+	<key>&quot;uz_Latn&quot;</key>
+	<string>Uzbek (Latin)</string>
+	<key>&quot;en_BZ&quot;</key>
+	<string>English (Belize)</string>
+	<key>&quot;nyn_UG&quot;</key>
+	<string>Nyankole (Uganda)</string>
+	<key>&quot;ebu_KE&quot;</key>
+	<string>Embu (Kenya)</string>
+	<key>&quot;te_IN&quot;</key>
+	<string>Telugu (India)</string>
+	<key>&quot;cy_GB&quot;</key>
+	<string>Welsh (United Kingdom)</string>
+	<key>&quot;uk&quot;</key>
+	<string>Ukrainian</string>
+	<key>&quot;nyn&quot;</key>
+	<string>Nyankole</string>
+	<key>&quot;en_JM&quot;</key>
+	<string>English (Jamaica)</string>
+	<key>&quot;en_US&quot;</key>
+	<string>English (United States)</string>
+	<key>&quot;fil&quot;</key>
+	<string>Filipino</string>
+	<key>&quot;ar_KW&quot;</key>
+	<string>Arabic (Kuwait)</string>
+	<key>&quot;af_ZA&quot;</key>
+	<string>Afrikaans (South Africa)</string>
+	<key>&quot;en_CA&quot;</key>
+	<string>English (Canada)</string>
+	<key>&quot;fr_DJ&quot;</key>
+	<string>French (Djibouti)</string>
+	<key>&quot;ti_ER&quot;</key>
+	<string>Tigrinya (Eritrea)</string>
+	<key>&quot;ig_NG&quot;</key>
+	<string>Igbo (Nigeria)</string>
+	<key>&quot;en_AU&quot;</key>
+	<string>English (Australia)</string>
+	<key>&quot;ur&quot;</key>
+	<string>Urdu</string>
+	<key>&quot;fr_MC&quot;</key>
+	<string>French (Monaco)</string>
+	<key>&quot;pt_PT&quot;</key>
+	<string>Portuguese (Portugal)</string>
+	<key>&quot;pa&quot;</key>
+	<string>Punjabi</string>
+	<key>&quot;es_419&quot;</key>
+	<string>Spanish (Latin America)</string>
+	<key>&quot;fr_CD&quot;</key>
+	<string>French (Congo - Kinshasa)</string>
+	<key>&quot;en_SG&quot;</key>
+	<string>English (Singapore)</string>
+	<key>&quot;bo_CN&quot;</key>
+	<string>Tibetan (China)</string>
+	<key>&quot;kn_IN&quot;</key>
+	<string>Kannada (India)</string>
+	<key>&quot;sr_Cyrl_RS&quot;</key>
+	<string>Serbian (Cyrillic, Serbia)</string>
+	<key>&quot;lg_UG&quot;</key>
+	<string>Ganda (Uganda)</string>
+	<key>&quot;gu_IN&quot;</key>
+	<string>Gujarati (India)</string>
+	<key>&quot;ee&quot;</key>
+	<string>Ewe</string>
+	<key>&quot;nd_ZW&quot;</key>
+	<string>North Ndebele (Zimbabwe)</string>
+	<key>&quot;bem&quot;</key>
+	<string>Bemba</string>
+	<key>&quot;uz&quot;</key>
+	<string>Uzbek</string>
+	<key>&quot;sw_KE&quot;</key>
+	<string>Swahili (Kenya)</string>
+	<key>&quot;sq_AL&quot;</key>
+	<string>Albanian (Albania)</string>
+	<key>&quot;hr_HR&quot;</key>
+	<string>Croatian (Croatia)</string>
+	<key>&quot;mas_KE&quot;</key>
+	<string>Masai (Kenya)</string>
+	<key>&quot;el&quot;</key>
+	<string>Greek</string>
+	<key>&quot;ti_ET&quot;</key>
+	<string>Tigrinya (Ethiopia)</string>
+	<key>&quot;es_AR&quot;</key>
+	<string>Spanish (Argentina)</string>
+	<key>&quot;pl&quot;</key>
+	<string>Polish</string>
+	<key>&quot;en&quot;</key>
+	<string>English</string>
+	<key>&quot;eo&quot;</key>
+	<string>Esperanto</string>
+	<key>&quot;shi&quot;</key>
+	<string>Tachelhit</string>
+	<key>&quot;kok&quot;</key>
+	<string>Konkani</string>
+	<key>&quot;fr_CF&quot;</key>
+	<string>French (Central African Republic)</string>
+	<key>&quot;fr_RE&quot;</key>
+	<string>French (Réunion)</string>
+	<key>&quot;mas&quot;</key>
+	<string>Masai</string>
+	<key>&quot;rof&quot;</key>
+	<string>Rombo</string>
+	<key>&quot;ru_UA&quot;</key>
+	<string>Russian (Ukraine)</string>
+	<key>&quot;yo_NG&quot;</key>
+	<string>Yoruba (Nigeria)</string>
+	<key>&quot;dav_KE&quot;</key>
+	<string>Taita (Kenya)</string>
+	<key>&quot;gv_GB&quot;</key>
+	<string>Manx (United Kingdom)</string>
+	<key>&quot;pa_Arab&quot;</key>
+	<string>Punjabi (Arabic)</string>
+	<key>&quot;es&quot;</key>
+	<string>Spanish</string>
+	<key>&quot;teo_UG&quot;</key>
+	<string>Teso (Uganda)</string>
+	<key>&quot;ps&quot;</key>
+	<string>Pashto</string>
+	<key>&quot;es_PR&quot;</key>
+	<string>Spanish (Puerto Rico)</string>
+	<key>&quot;fr_MF&quot;</key>
+	<string>French (Saint Martin)</string>
+	<key>&quot;et&quot;</key>
+	<string>Estonian</string>
+	<key>&quot;pt&quot;</key>
+	<string>Portuguese</string>
+	<key>&quot;eu&quot;</key>
+	<string>Basque</string>
+	<key>&quot;ka&quot;</key>
+	<string>Georgian</string>
+	<key>&quot;rwk_TZ&quot;</key>
+	<string>Rwa (Tanzania)</string>
+	<key>&quot;nb_NO&quot;</key>
+	<string>Norwegian Bokmål (Norway)</string>
+	<key>&quot;fr_CG&quot;</key>
+	<string>French (Congo - Brazzaville)</string>
+	<key>&quot;cgg&quot;</key>
+	<string>Chiga</string>
+	<key>&quot;zh_Hant_TW&quot;</key>
+	<string>Chinese (Traditional Han, Taiwan)</string>
+	<key>&quot;sr_Cyrl_ME&quot;</key>
+	<string>Serbian (Cyrillic, Montenegro)</string>
+	<key>&quot;lag&quot;</key>
+	<string>Langi</string>
+	<key>&quot;ses_ML&quot;</key>
+	<string>Koyraboro Senni (Mali)</string>
+	<key>&quot;en_ZW&quot;</key>
+	<string>English (Zimbabwe)</string>
+	<key>&quot;ak_GH&quot;</key>
+	<string>Akan (Ghana)</string>
+	<key>&quot;vi_VN&quot;</key>
+	<string>Vietnamese (Vietnam)</string>
+	<key>&quot;sv_FI&quot;</key>
+	<string>Swedish (Finland)</string>
+	<key>&quot;to_TO&quot;</key>
+	<string>Tonga (Tonga)</string>
+	<key>&quot;fr_MG&quot;</key>
+	<string>French (Madagascar)</string>
+	<key>&quot;fr_GA&quot;</key>
+	<string>French (Gabon)</string>
+	<key>&quot;fr_CH&quot;</key>
+	<string>French (Switzerland)</string>
+	<key>&quot;de_CH&quot;</key>
+	<string>German (Switzerland)</string>
+	<key>&quot;es_US&quot;</key>
+	<string>Spanish (United States)</string>
+	<key>&quot;ki&quot;</key>
+	<string>Kikuyu</string>
+	<key>&quot;my_MM&quot;</key>
+	<string>Burmese (Myanmar [Burma])</string>
+	<key>&quot;vi&quot;</key>
+	<string>Vietnamese</string>
+	<key>&quot;ar_QA&quot;</key>
+	<string>Arabic (Qatar)</string>
+	<key>&quot;ga_IE&quot;</key>
+	<string>Irish (Ireland)</string>
+	<key>&quot;rwk&quot;</key>
+	<string>Rwa</string>
+	<key>&quot;bez&quot;</key>
+	<string>Bena</string>
+	<key>&quot;ee_GH&quot;</key>
+	<string>Ewe (Ghana)</string>
+	<key>&quot;kk&quot;</key>
+	<string>Kazakh</string>
+	<key>&quot;as_IN&quot;</key>
+	<string>Assamese (India)</string>
+	<key>&quot;ca_ES&quot;</key>
+	<string>Catalan (Spain)</string>
+	<key>&quot;kl&quot;</key>
+	<string>Kalaallisut</string>
+	<key>&quot;fr_SN&quot;</key>
+	<string>French (Senegal)</string>
+	<key>&quot;ne_IN&quot;</key>
+	<string>Nepali (India)</string>
+	<key>&quot;km&quot;</key>
+	<string>Khmer</string>
+	<key>&quot;ms_BN&quot;</key>
+	<string>Malay (Brunei)</string>
+	<key>&quot;ar_LB&quot;</key>
+	<string>Arabic (Lebanon)</string>
+	<key>&quot;ta_LK&quot;</key>
+	<string>Tamil (Sri Lanka)</string>
+	<key>&quot;kn&quot;</key>
+	<string>Kannada</string>
+	<key>&quot;ur_IN&quot;</key>
+	<string>Urdu (India)</string>
+	<key>&quot;fr_CI&quot;</key>
+	<string>French (Côte d’Ivoire)</string>
+	<key>&quot;ko&quot;</key>
+	<string>Korean</string>
+	<key>&quot;ha_Latn_NG&quot;</key>
+	<string>Hausa (Latin, Nigeria)</string>
+	<key>&quot;sg_CF&quot;</key>
+	<string>Sango (Central African Republic)</string>
+	<key>&quot;om_ET&quot;</key>
+	<string>Oromo (Ethiopia)</string>
+	<key>&quot;zh_Hant_MO&quot;</key>
+	<string>Chinese (Traditional Han, Macau SAR China)</string>
+	<key>&quot;uk_UA&quot;</key>
+	<string>Ukrainian (Ukraine)</string>
+	<key>&quot;fa&quot;</key>
+	<string>Persian</string>
+	<key>&quot;mt_MT&quot;</key>
+	<string>Maltese (Malta)</string>
+	<key>&quot;ki_KE&quot;</key>
+	<string>Kikuyu (Kenya)</string>
+	<key>&quot;luy_KE&quot;</key>
+	<string>Luyia (Kenya)</string>
+	<key>&quot;kw&quot;</key>
+	<string>Cornish</string>
+	<key>&quot;pa_Guru_IN&quot;</key>
+	<string>Punjabi (Gurmukhi, India)</string>
+	<key>&quot;en_IN&quot;</key>
+	<string>English (India)</string>
+	<key>&quot;kab&quot;</key>
+	<string>Kabyle</string>
+	<key>&quot;ar_IQ&quot;</key>
+	<string>Arabic (Iraq)</string>
+	<key>&quot;ff&quot;</key>
+	<string>Fulah</string>
+	<key>&quot;en_TT&quot;</key>
+	<string>English (Trinidad and Tobago)</string>
+	<key>&quot;bez_TZ&quot;</key>
+	<string>Bena (Tanzania)</string>
+	<key>&quot;es_NI&quot;</key>
+	<string>Spanish (Nicaragua)</string>
+	<key>&quot;uz_Arab&quot;</key>
+	<string>Uzbek (Arabic)</string>
+	<key>&quot;ne_NP&quot;</key>
+	<string>Nepali (Nepal)</string>
+	<key>&quot;fi&quot;</key>
+	<string>Finnish</string>
+	<key>&quot;khq&quot;</key>
+	<string>Koyra Chiini</string>
+	<key>&quot;gsw&quot;</key>
+	<string>Swiss German</string>
+	<key>&quot;zh_Hans_MO&quot;</key>
+	<string>Chinese (Simplified Han, Macau SAR China)</string>
+	<key>&quot;en_MH&quot;</key>
+	<string>English (Marshall Islands)</string>
+	<key>&quot;hu_HU&quot;</key>
+	<string>Hungarian (Hungary)</string>
+	<key>&quot;en_GB&quot;</key>
+	<string>English (United Kingdom)</string>
+	<key>&quot;fr_BE&quot;</key>
+	<string>French (Belgium)</string>
+	<key>&quot;de_BE&quot;</key>
+	<string>German (Belgium)</string>
+	<key>&quot;saq&quot;</key>
+	<string>Samburu</string>
+	<key>&quot;be_BY&quot;</key>
+	<string>Belarusian (Belarus)</string>
+	<key>&quot;sl_SI&quot;</key>
+	<string>Slovenian (Slovenia)</string>
+	<key>&quot;sr_Latn_RS&quot;</key>
+	<string>Serbian (Latin, Serbia)</string>
+	<key>&quot;fo&quot;</key>
+	<string>Faroese</string>
+	<key>&quot;fr&quot;</key>
+	<string>French</string>
+	<key>&quot;xog&quot;</key>
+	<string>Soga</string>
+	<key>&quot;fr_BF&quot;</key>
+	<string>French (Burkina Faso)</string>
+	<key>&quot;tzm&quot;</key>
+	<string>Central Morocco Tamazight</string>
+	<key>&quot;sk_SK&quot;</key>
+	<string>Slovak (Slovakia)</string>
+	<key>&quot;fr_ML&quot;</key>
+	<string>French (Mali)</string>
+	<key>&quot;he_IL&quot;</key>
+	<string>Hebrew (Israel)</string>
+	<key>&quot;ha_Latn_NE&quot;</key>
+	<string>Hausa (Latin, Niger)</string>
+	<key>&quot;ru_RU&quot;</key>
+	<string>Russian (Russia)</string>
+	<key>&quot;fr_CM&quot;</key>
+	<string>French (Cameroon)</string>
+	<key>&quot;teo_KE&quot;</key>
+	<string>Teso (Kenya)</string>
+	<key>&quot;seh_MZ&quot;</key>
+	<string>Sena (Mozambique)</string>
+	<key>&quot;kl_GL&quot;</key>
+	<string>Kalaallisut (Greenland)</string>
+	<key>&quot;fi_FI&quot;</key>
+	<string>Finnish (Finland)</string>
+	<key>&quot;kam&quot;</key>
+	<string>Kamba</string>
+	<key>&quot;es_ES&quot;</key>
+	<string>Spanish (Spain)</string>
+	<key>&quot;af&quot;</key>
+	<string>Afrikaans</string>
+	<key>&quot;asa_TZ&quot;</key>
+	<string>Asu (Tanzania)</string>
+	<key>&quot;cs_CZ&quot;</key>
+	<string>Czech (Czech Republic)</string>
+	<key>&quot;tr_TR&quot;</key>
+	<string>Turkish (Turkey)</string>
+	<key>&quot;es_PY&quot;</key>
+	<string>Spanish (Paraguay)</string>
+	<key>&quot;tzm_Latn_MA&quot;</key>
+	<string>Central Morocco Tamazight (Latin, Morocco)</string>
+	<key>&quot;lg&quot;</key>
+	<string>Ganda</string>
+	<key>&quot;ebu&quot;</key>
+	<string>Embu</string>
+	<key>&quot;en_HK&quot;</key>
+	<string>English (Hong Kong SAR China)</string>
+	<key>&quot;nl_NL&quot;</key>
+	<string>Dutch (Netherlands)</string>
+	<key>&quot;en_BE&quot;</key>
+	<string>English (Belgium)</string>
+	<key>&quot;ms_MY&quot;</key>
+	<string>Malay (Malaysia)</string>
+	<key>&quot;es_UY&quot;</key>
+	<string>Spanish (Uruguay)</string>
+	<key>&quot;ar_BH&quot;</key>
+	<string>Arabic (Bahrain)</string>
+	<key>&quot;kw_GB&quot;</key>
+	<string>Cornish (United Kingdom)</string>
+	<key>&quot;ak&quot;</key>
+	<string>Akan</string>
+	<key>&quot;chr&quot;</key>
+	<string>Cherokee</string>
+	<key>&quot;dav&quot;</key>
+	<string>Taita</string>
+	<key>&quot;lag_TZ&quot;</key>
+	<string>Langi (Tanzania)</string>
+	<key>&quot;am&quot;</key>
+	<string>Amharic</string>
+	<key>&quot;so_DJ&quot;</key>
+	<string>Somali (Djibouti)</string>
+	<key>&quot;shi_Tfng_MA&quot;</key>
+	<string>Tachelhit (Tifinagh, Morocco)</string>
+	<key>&quot;sr_Latn_ME&quot;</key>
+	<string>Serbian (Latin, Montenegro)</string>
+	<key>&quot;sn_ZW&quot;</key>
+	<string>Shona (Zimbabwe)</string>
+	<key>&quot;or_IN&quot;</key>
+	<string>Oriya (India)</string>
+	<key>&quot;ar&quot;</key>
+	<string>Arabic</string>
+	<key>&quot;as&quot;</key>
+	<string>Assamese</string>
+	<key>&quot;fr_BI&quot;</key>
+	<string>French (Burundi)</string>
+	<key>&quot;jmc_TZ&quot;</key>
+	<string>Machame (Tanzania)</string>
+	<key>&quot;chr_US&quot;</key>
+	<string>Cherokee (United States)</string>
+	<key>&quot;eu_ES&quot;</key>
+	<string>Basque (Spain)</string>
+	<key>&quot;saq_KE&quot;</key>
+	<string>Samburu (Kenya)</string>
+	<key>&quot;vun&quot;</key>
+	<string>Vunjo</string>
+	<key>&quot;lt&quot;</key>
+	<string>Lithuanian</string>
+	<key>&quot;naq_NA&quot;</key>
+	<string>Nama (Namibia)</string>
+	<key>&quot;ga&quot;</key>
+	<string>Irish</string>
+	<key>&quot;af_NA&quot;</key>
+	<string>Afrikaans (Namibia)</string>
+	<key>&quot;kea_CV&quot;</key>
+	<string>Kabuverdianu (Cape Verde)</string>
+	<key>&quot;es_DO&quot;</key>
+	<string>Spanish (Dominican Republic)</string>
+	<key>&quot;lv&quot;</key>
+	<string>Latvian</string>
+	<key>&quot;kok_IN&quot;</key>
+	<string>Konkani (India)</string>
+	<key>&quot;de_LI&quot;</key>
+	<string>German (Liechtenstein)</string>
+	<key>&quot;fr_BJ&quot;</key>
+	<string>French (Benin)</string>
+	<key>&quot;az&quot;</key>
+	<string>Azerbaijani</string>
+	<key>&quot;guz_KE&quot;</key>
+	<string>Gusii (Kenya)</string>
+	<key>&quot;rw_RW&quot;</key>
+	<string>Kinyarwanda (Rwanda)</string>
+	<key>&quot;mg_MG&quot;</key>
+	<string>Malagasy (Madagascar)</string>
+	<key>&quot;km_KH&quot;</key>
+	<string>Khmer (Cambodia)</string>
+	<key>&quot;gl&quot;</key>
+	<string>Galician</string>
+	<key>&quot;shi_Tfng&quot;</key>
+	<string>Tachelhit (Tifinagh)</string>
+	<key>&quot;ar_AE&quot;</key>
+	<string>Arabic (United Arab Emirates)</string>
+	<key>&quot;fr_MQ&quot;</key>
+	<string>French (Martinique)</string>
+	<key>&quot;rm&quot;</key>
+	<string>Romansh</string>
+	<key>&quot;sv_SE&quot;</key>
+	<string>Swedish (Sweden)</string>
+	<key>&quot;az_Cyrl&quot;</key>
+	<string>Azerbaijani (Cyrillic)</string>
+	<key>&quot;ro&quot;</key>
+	<string>Romanian</string>
+	<key>&quot;so_ET&quot;</key>
+	<string>Somali (Ethiopia)</string>
+	<key>&quot;en_ZA&quot;</key>
+	<string>English (South Africa)</string>
+	<key>&quot;ii_CN&quot;</key>
+	<string>Sichuan Yi (China)</string>
+	<key>&quot;fr_BL&quot;</key>
+	<string>French (Saint Barthélemy)</string>
+	<key>&quot;hi_IN&quot;</key>
+	<string>Hindi (India)</string>
+	<key>&quot;gu&quot;</key>
+	<string>Gujarati</string>
+	<key>&quot;mer_KE&quot;</key>
+	<string>Meru (Kenya)</string>
+	<key>&quot;nn_NO&quot;</key>
+	<string>Norwegian Nynorsk (Norway)</string>
+	<key>&quot;gv&quot;</key>
+	<string>Manx</string>
+	<key>&quot;ru&quot;</key>
+	<string>Russian</string>
+	<key>&quot;ar_DZ&quot;</key>
+	<string>Arabic (Algeria)</string>
+	<key>&quot;ar_SY&quot;</key>
+	<string>Arabic (Syria)</string>
+	<key>&quot;en_MP&quot;</key>
+	<string>English (Northern Mariana Islands)</string>
+	<key>&quot;nl_BE&quot;</key>
+	<string>Dutch (Belgium)</string>
+	<key>&quot;rw&quot;</key>
+	<string>Kinyarwanda</string>
+	<key>&quot;be&quot;</key>
+	<string>Belarusian</string>
+	<key>&quot;en_VI&quot;</key>
+	<string>English (U.S. Virgin Islands)</string>
+	<key>&quot;es_CL&quot;</key>
+	<string>Spanish (Chile)</string>
+	<key>&quot;bg&quot;</key>
+	<string>Bulgarian</string>
+	<key>&quot;mg&quot;</key>
+	<string>Malagasy</string>
+	<key>&quot;hy_AM&quot;</key>
+	<string>Armenian (Armenia)</string>
+	<key>&quot;zu_ZA&quot;</key>
+	<string>Zulu (South Africa)</string>
+	<key>&quot;guz&quot;</key>
+	<string>Gusii</string>
+	<key>&quot;mk&quot;</key>
+	<string>Macedonian</string>
+	<key>&quot;es_VE&quot;</key>
+	<string>Spanish (Venezuela)</string>
+	<key>&quot;ml&quot;</key>
+	<string>Malayalam</string>
+	<key>&quot;bm&quot;</key>
+	<string>Bambara</string>
+	<key>&quot;khq_ML&quot;</key>
+	<string>Koyra Chiini (Mali)</string>
+	<key>&quot;bn&quot;</key>
+	<string>Bengali</string>
+	<key>&quot;ps_AF&quot;</key>
+	<string>Pashto (Afghanistan)</string>
+	<key>&quot;so_SO&quot;</key>
+	<string>Somali (Somalia)</string>
+	<key>&quot;sr_Cyrl&quot;</key>
+	<string>Serbian (Cyrillic)</string>
+	<key>&quot;pl_PL&quot;</key>
+	<string>Polish (Poland)</string>
+	<key>&quot;fr_GN&quot;</key>
+	<string>French (Guinea)</string>
+	<key>&quot;bo&quot;</key>
+	<string>Tibetan</string>
+	<key>&quot;om_KE&quot;</key>
+	<string>Oromo (Kenya)</string>
+</dict>
+</plist>
