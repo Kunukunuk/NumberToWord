@@ -4,12 +4,12 @@
 
 App users will be able type in a number and get that corresponding English or Chinese word.
 
-Time spent: **10** hours spent in total
+Time spent: **15** hours spent in total
 
 The following **additional** features are implemented in the future:
 
 - [ ] Let an user pick an language to convert the number to.
-- [ ] Let user put double numbers. Currently it only works on integers.
+- [X] Let user put double numbers. Currently it only works on integers.
 
 ## Video Walkthrough
 
