@@ -14,10 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var englishWord: UILabel!
     @IBOutlet weak var simplifiedChineseLabel: UILabel!
     @IBOutlet weak var traditionalChineseLabel: UILabel!
+    @IBOutlet weak var languagePicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        getDataFromList()
     }
 
     @IBAction func convertNum(_ sender: UIButton) {
@@ -39,6 +41,13 @@ class ViewController: UIViewController {
             traditionalChineseLabel.text = "不是有效的整數"
         }
         
+    }
+    
+    func getDataFromList() {
+        if let path = Bundle.main.path(forResource: "LanguageList", ofType: "plist"),
+            let myDict = NSDictionary(contentsOfFile: path){
+            print("data:\(myDict.allValues)")
+        }
     }
 
 }

@@ -55,6 +55,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghp-Dc-DKy">
+                                <rect key="frame" x="10" y="233" width="355" height="216"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -67,7 +70,10 @@
                             <constraint firstItem="shb-5M-sSa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="JfA-NG-fre"/>
                             <constraint firstItem="qwB-XY-bwB" firstAttribute="top" secondItem="GpH-4Z-7eX" secondAttribute="bottom" constant="10" id="MGj-QD-kwh"/>
                             <constraint firstItem="7vU-1j-tIz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PrF-Ps-YKa"/>
+                            <constraint firstAttribute="trailing" secondItem="ghp-Dc-DKy" secondAttribute="trailing" constant="10" id="PyA-Gs-qAd"/>
                             <constraint firstItem="Yo7-b4-eLD" firstAttribute="top" secondItem="qwB-XY-bwB" secondAttribute="bottom" constant="10" id="QZG-r8-O83"/>
+                            <constraint firstItem="ghp-Dc-DKy" firstAttribute="top" secondItem="7vU-1j-tIz" secondAttribute="bottom" constant="10" id="S6k-VM-9YP"/>
+                            <constraint firstItem="ghp-Dc-DKy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Xws-HB-g5J"/>
                             <constraint firstItem="GpH-4Z-7eX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ZAx-Py-jhM"/>
                             <constraint firstItem="Id5-ro-Wgv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="bDb-Fs-30U"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7vU-1j-tIz" secondAttribute="trailing" constant="10" id="eTs-ad-gVe"/>
@@ -81,6 +87,7 @@
                     </view>
                     <connections>
                         <outlet property="englishWord" destination="Yo7-b4-eLD" id="VMW-Vm-3ZV"/>
+                        <outlet property="languagePicker" destination="ghp-Dc-DKy" id="yeG-7R-iNi"/>
                         <outlet property="numberEntered" destination="GpH-4Z-7eX" id="dOi-PG-4cd"/>
                         <outlet property="simplifiedChineseLabel" destination="shb-5M-sSa" id="3Nm-oJ-Jm2"/>
                         <outlet property="traditionalChineseLabel" destination="7vU-1j-tIz" id="Fbu-TZ-9hc"/>
