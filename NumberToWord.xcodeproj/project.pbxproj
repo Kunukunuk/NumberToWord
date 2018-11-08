@@ -15,6 +15,7 @@
 		0D3D67C3209F64090083E8B5 /* EnglishWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D67C2209F64090083E8B5 /* EnglishWord.swift */; };
 		0DBB6899219299DD00DA6AC8 /* ChineseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBB6898219299DD00DA6AC8 /* ChineseWord.swift */; };
 		0DF098E12193FC2F00567CD5 /* LanguageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DF098E02193FC2F00567CD5 /* LanguageList.plist */; };
+		0DF098E32194DDEC00567CD5 /* ChosenLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF098E22194DDEC00567CD5 /* ChosenLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0D3D67C2209F64090083E8B5 /* EnglishWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishWord.swift; sourceTree = "<group>"; };
 		0DBB6898219299DD00DA6AC8 /* ChineseWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseWord.swift; sourceTree = "<group>"; };
 		0DF098E02193FC2F00567CD5 /* LanguageList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LanguageList.plist; sourceTree = "<group>"; };
+		0DF098E22194DDEC00567CD5 /* ChosenLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenLanguage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				0D3D67B220991CEA0083E8B5 /* ViewController.swift */,
 				0D3D67C2209F64090083E8B5 /* EnglishWord.swift */,
 				0DBB6898219299DD00DA6AC8 /* ChineseWord.swift */,
+				0DF098E22194DDEC00567CD5 /* ChosenLanguage.swift */,
 				0D3D67B420991CEA0083E8B5 /* Main.storyboard */,
 				0D3D67B720991CEB0083E8B5 /* Assets.xcassets */,
 				0D3D67B920991CEB0083E8B5 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3D67B320991CEA0083E8B5 /* ViewController.swift in Sources */,
+				0DF098E32194DDEC00567CD5 /* ChosenLanguage.swift in Sources */,
 				0D3D67C3209F64090083E8B5 /* EnglishWord.swift in Sources */,
 				0D3D67B120991CEA0083E8B5 /* AppDelegate.swift in Sources */,
 				0DBB6899219299DD00DA6AC8 /* ChineseWord.swift in Sources */,

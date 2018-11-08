@@ -15,6 +15,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var simplifiedChineseLabel: UILabel!
     @IBOutlet weak var traditionalChineseLabel: UILabel!
     @IBOutlet weak var languagePicker: UIPickerView!
+    @IBOutlet weak var chosenLanguage: UILabel!
     var pickerData: [(language_Name: String, language_ID: String)] = []
     
     override func viewDidLoad() {
@@ -54,6 +55,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 pickerData.append((value as! String, key as! String))
             }
         }
+        
+        print(pickerData)
     }
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -69,7 +72,20 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        chosenLanguage.text = pickerData[row].language_Name
+        let isNumber = Double(numberEntered.text!)
         print(pickerData[row].language_ID)
+        if (isNumber != nil) {
+            
+            let nsNum = NSNumber(value: isNumber!)
+            let choseLang = ChosenLanguage(with: nsNum, languageID: pickerData[row].language_ID)
+            
+            chosenLanguage.text = choseLang.chosenLanguage
+            
+            
+        } else {
+            chosenLanguage.text = "error"
+        }
     }
 }
 
