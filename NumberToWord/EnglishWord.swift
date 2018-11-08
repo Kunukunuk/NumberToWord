@@ -15,29 +15,32 @@ class EnglishWord {
     
     init(with number: NSNumber) {
         
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .spellOut
-        english = formatter.string(from: number)!
-        
-        if english.contains("point") {
-            numberWithDecimal(with: number)
-        }
-    }
-    
-    func numberWithDecimal(with number: NSNumber) {
-        
         let doubleNumber = String( Double(truncating: number) )
         let numArray = doubleNumber.components(separatedBy: ".")
         
+        var beforeDecimal = ""
+        var afterDecimal = ""
+        
         let formatter = NumberFormatter()
         formatter.numberStyle = .spellOut
         
-        var afterDecimal = ""
-        if let integerNumber = Int(numArray[1]) {
-            afterDecimal = formatter.string(from: NSNumber(value: integerNumber))! + " " + decimalWords[numArray[1].count - 1]
+        for (index, number) in numArray.enumerated() {
+            if let integerNumber = Int(number) {
+                let nsInt = NSNumber(value: integerNumber)
+                if index == 0 {
+                    beforeDecimal = formatter.string(from: nsInt)!
+                } else if index == 1 {
+                    if number.count > decimalWords.count {
+                        afterDecimal = formatter.string(from: nsInt)! + "work in process"
+                    } else {
+                        afterDecimal = formatter.string(from: nsInt)! + " " + decimalWords[number.count - 1]
+                    }
+                }
+            }
         }
         
-        print(afterDecimal)
+        english = beforeDecimal + " and " + afterDecimal
+        
     }
     
 }
