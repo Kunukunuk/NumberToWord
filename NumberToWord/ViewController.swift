@@ -55,8 +55,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 pickerData.append((value as! String, key as! String))
             }
         }
-        
-        print(pickerData)
     }
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
