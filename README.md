@@ -4,18 +4,18 @@
 
 App users will be able type in a number and get that corresponding English or Chinese word.
 
-Time spent: **15** hours spent in total
+Time spent: **20** hours spent in total
 
 The following **additional** features are implemented in the future:
 
-- [ ] Let an user pick an language to convert the number to.
+- [X] Let an user pick an language to convert the number to.
 - [X] Let user put double numbers. Currently it only works on integers.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![kun_huang_numbertoword](https://user-images.githubusercontent.com/28847045/48111367-32444a80-e21f-11e8-9c8f-798d7f8bbf7e.gif)
+![kun_huang_numbertoword2](https://user-images.githubusercontent.com/28847045/48292538-bc232c00-e448-11e8-8a41-46d33ac4156f.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
