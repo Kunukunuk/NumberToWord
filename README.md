@@ -1,8 +1,8 @@
 *NumberToWord*
 
-**NumberToWord** is an app that convert numbers to English and Chinese words. Hope to add all other langauges in the future.
+**NumberToWord** is an app that convert numbers to English, Chinese words and other langauges by picking on them.
 
-App users will be able type in a number and get that corresponding English or Chinese word.
+App users will be able type in a number and get that corresponding English, Chinese, other languages.
 
 Time spent: **20** hours spent in total
 
