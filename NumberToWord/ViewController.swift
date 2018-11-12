@@ -36,14 +36,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             let english = EnglishWord(with: nsNum)
             let chinese = ChineseWord(with: nsNum)
             
+            let selected = pickerData[languagePicker.selectedRow(inComponent: 0)]
+            let choseLang = ChosenLanguage(with: nsNum, languageID: selected.language_ID)
+            
             englishWord.text = english.english
             simplifiedChineseLabel.text = chinese.simplifiedChinese
             traditionalChineseLabel.text = chinese.traditioanlChinese
+            chosenLanguage.text = choseLang.chosenLanguage
             
         } else {
             englishWord.text = "Not a valid integer"
             simplifiedChineseLabel.text = "不是有效的整数"
             traditionalChineseLabel.text = "不是有效的整數"
+            chosenLanguage.text = "Not a valid integer"
         }
         
     }
@@ -72,7 +77,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         chosenLanguage.text = pickerData[row].language_Name
         let isNumber = Double(numberEntered.text!)
-        print(pickerData[row].language_ID)
+        
         if (isNumber != nil) {
             
             let nsNum = NSNumber(value: isNumber!)
