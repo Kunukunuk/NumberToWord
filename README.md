@@ -16,7 +16,15 @@ The following **additional** features are implemented in the future:
 
 Here's a walkthrough of implemented user stories:
 
-![kun_huang_numbertoword2](https://user-images.githubusercontent.com/28847045/48292538-bc232c00-e448-11e8-8a41-46d33ac4156f.gif)
+Converting numbers
+![numbertoword01](https://user-images.githubusercontent.com/28847045/49680489-c98cff80-fa62-11e8-8628-051097c2ff1c.gif)
+
+Picking an available language to translate to. If it can't be translated, it defaults to English.
+![numbertoword02](https://user-images.githubusercontent.com/28847045/49680490-cb56c300-fa62-11e8-981e-77fc21504b99.gif)
+
+Putting invalid numbers
+![numbertoword03](https://user-images.githubusercontent.com/28847045/49680491-cd208680-fa62-11e8-8d7f-9f9532b1dfe1.gif)
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
