@@ -17,12 +17,11 @@ class ChineseWord {
         
         let formatter = NumberFormatter()
         formatter.numberStyle = .spellOut
-        formatter.locale = Locale(identifier: "zh_Hans")
         
+        formatter.locale = Locale(identifier: "zh_Hans")
         simplifiedChinese = formatter.string(from: number)!
         
         formatter.locale = Locale(identifier: "zh_Hant")
-        
         traditioanlChinese = formatter.string(from: number)!
     }
     

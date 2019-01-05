@@ -17,7 +17,6 @@ class ChosenLanguage {
         let formatter = NumberFormatter()
         formatter.numberStyle = .spellOut
         formatter.locale = Locale(identifier: languageID)
-        
         chosenLanguage = formatter.string(from: number)!
         
     }
